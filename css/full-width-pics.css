@@ -28,8 +28,8 @@ body {
 }
 
 .avatar {
-  box-shadow: 0 0 30px black;
-  border: 2px solid #777;
+  box-shadow: 2px 2px 12px black;
+  border: 1px solid #777;
   border-top: 0;
   border-left: 0;
 }
