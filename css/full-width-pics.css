@@ -78,6 +78,10 @@ section {
   height: 420px;
 }
 
+.map iframe {
+  pointer-events: none;
+}
+
 footer {
   margin: 50px 0;
 }
@@ -90,5 +94,30 @@ footer {
 
   .section-heading {
     font-size: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
   }
+  .section-lead { margin: 1em 0; }
+  .section-paragraph { margin: 0.75em 0; }
+  .image-bg-fluid-height {
+    padding-top: 2em;
+    padding-bottom: 1em;
+  }
+  .image-bg-fixed-height {
+    height: 275px;
+  }
+  .text-vertical-center h1 {
+    font-size: 3em;
+  }
+}
+
+@media(max-width:400px) {
+  .map,
+  .image-bg-fixed-height {
+    height: 205px;
+  }
+  .text-vertical-center h1 {
+    font-size: 2.5em;
+  }
+
 }
