@@ -9,12 +9,12 @@ body {
 }
 
 .image-bg-fluid-height {
-  background: url('../images/bernal_hill_sf_view_fade_btm.jpeg') no-repeat top center scroll;
+  background: url('../images/bernal_hill_sf_view_fade_btm_2.jpeg') no-repeat top center scroll;
   padding: 100px 0;
 }
 
 .image-bg-fixed-height {
-  background: url('../images/bernal_hill_sf_view_fade_top.jpeg') no-repeat bottom center scroll;
+  background: url('../images/bernal_hill_sf_view_fade_top_2.jpeg') no-repeat bottom center scroll;
   height: 450px;
   display: table;
   width: 100%;
