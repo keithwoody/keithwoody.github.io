@@ -120,10 +120,21 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="portfolio-item">
-                  <a href="https://www.authorrise.com">
+                  <a href="" data-toggle="modal" data-target="#authorRiseVideo">
                     <img class="img-portfolio img-responsive" src="images/authorRise_screenshot.png">
                   </a>
                   <div class="caption">AuthorRise.com - A book marketing website for authors</div>
+                </div>
+                <div class="modal fade" role="dialog" id="authorRiseVideo" tabindex="-1" style="display: none;">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-body">
+                        <div class='fluid-width-video-wrapper'>
+                          <iframe allowfullscreen='' allowtransparency='true' frameborder='0' height='360' id='player' mozallowfullscreen='' msallowfullscreen='' name='wistia_embed' oallowfullscreen='' scrolling='no' src='https://fast.wistia.net/embed/iframe/sdu6mpjeg0?videoFoam=true' webkitallowfullscreen='' width='640'></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="col-md-6">
@@ -233,6 +244,7 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
+    <script src="https://fast.wistia.net/assets/external/E-v1.js"></script>
     <script>
       $('.map').click(function () { $('.map iframe').css("pointer-events", "auto"); });
 
